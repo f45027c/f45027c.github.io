@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.brand {
+    display: block;
+    text-align: center;
+    background: #eeeeee;
+    padding: 80px;
+}
+
+.instruction {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 100px auto;
+    padding-bottom: 100px;
+    font-size: 24px;
+    border-bottom: 1px dashed #dddddd;
+}
+
+.instruction img {
+    width: 100px;
+    height: 100px;
+}
+
+.instruction.left img {
+    margin-right: 40px;
+}
+
+.instruction.right img {
+    margin-left: 40px;
+}
